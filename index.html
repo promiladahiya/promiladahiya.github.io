@@ -1011,6 +1011,20 @@ Indiabulls Housing Finance Ltd. (IBHFL) is the 2nd largest private housing finan
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
+	<script src="jquery.malihu.PageScroll2id.js"></script>
+	<script>
+		(function($){
+			$(window).on("load",function(){
+				
+				/* Page Scroll to id fn call */
+				$("#main-nav-wrap a,a[href='#top'],a[rel='m_PageScroll2id']").mPageScroll2id({
+					highlightSelector:"#main-nav-wrap a"
+				});
+				
+				
+			});
+		})(jQuery);
+	</script>
 	
 
 </body>
